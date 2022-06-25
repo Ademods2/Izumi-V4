@@ -293,13 +293,5 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ✾ ${prefix}broadcast
 
   *THANKS TO*
-  - My God
-  - Baileys-Md (Adiwa Jshing)
-  - @irfann._x (Iyan)
-  - @arsrfi.jpg (Arasya)
-  - M Hadi Firmansya (Hadi Api)
-  - @melcanz_ (Amel)
-  - @${setting.Instagram} (Owner)
-  - @chris.tianid (Christian ID)
-  - @hardianto.xyz (Anto)`
+  - Ademods
 }
