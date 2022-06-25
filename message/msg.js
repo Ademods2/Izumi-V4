@@ -92,7 +92,7 @@ const linkdonasi = "https://telegra.ph/file/b7f1243d43509983f3230.jpg" // Ganti 
 
 // Setting SewaBot Ubah Harga Sesuai Harga Mu//
 const qris = "https://telegra.ph/file/b7f1243d43509983f3230.jpg"
-const nomor = "wa.me/6285921165857"
+const nomor = "wa.me/628980330708"
 const tujuhhari = "5.000"
 const tigapuluhhari = "10.000"
 const setahun = "20.000"
@@ -117,7 +117,7 @@ const rekberg = "500-699K : 40K"
 const rekberh = "700-1JT : 50K"
 
 // Setting Payment 
-const via = "ShoopePay, Qris, Gopay" // Terserah Mau Payment Apa Aja
+const via = "Dana,Pulsa" // Terserah Mau Payment Apa Aja
 
 // Exif
 const Exif = require("../lib/exif")
@@ -569,7 +569,7 @@ case prefix+'donasiah':
 case prefix+'donasi':
   case prefix+'donate':
   var donasibut = [
-			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
+			{ urlButton: { displayText: `Group ModsBot`, url : `${grup}` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
 var teks = `  â”‚
@@ -636,13 +636,13 @@ case prefix+'formatid': // By Christian ID
 case prefix+'sc': //By Christian ID
   var teks = `*â”€â”€ ã€Œ SOURCE CODE ã€ â”€â”€*
 
-*Script : https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg*
+*Script : https://youtube.com/channel/UCbetUssizXWLgZdp8Sg*
 
-*_Sc Bot Versi 1 Via MediaFire : https://www.mediafire.com/file/zi97farlseupw3z/Christian-ID.zip/file_*
+*_Sc Bot Versi 1 Via MediaFire : https://www.mediafire.com/file/zi97farlseupw3Ademods.zip/file_*
 
-*_Sc Bot Versi 2 Via MediaFire : https://www.mediafire.com/file/l8zoyc38l420wen/ChrisV1.7z/file_*
+*_Sc Bot Versi 2 Via MediaFire : https://www.mediafire.com/file/l8zoyc38l420wen/Chr1.7z/file_*
 
-_Sc Versi 2 Berpassword Syarat : Subscribe https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg Dan Screenshot Kirim Ke Owner_`
+_Sc Versi 2 Berpassword Syarat : Subscribe https://youtube.com/channel/UCbetUssizXWVEFp8Sg Dan Screenshot Kirim Ke Owner_`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: button5, footer: `${footer}`, mentions: [sender] })
 			    break
 case prefix+'rules': //By Christian ID
@@ -727,8 +727,8 @@ case prefix+'infobot':
     case prefix+'info':
       var caption = `*[ INFO IZUMI BOT ]*
 
-*Nama Bot :* Izumi - MD
-*Name Owner :* Christian ID
+*Nama Bot :* ModsBOT 
+*Name Owner :* Ademods
 *Nomor Bot :* wa.me/${nobot}
 *Nomor Owner :* wa.me/${ownerNumber}
 *Engine :* NodeJs
@@ -737,12 +737,8 @@ case prefix+'infobot':
 
 ===================
 Thanks To
-- Riyan
-- Arasya
-- Christian ID
-- Amel
-- Hardianto
-- Febri`
+- Ademods
+- ModsBOT 
 
 conn.sendMessage(from, {caption: caption, location: fs.readFileSync('media/chris2.jpg')}, {quoted: msg})
 break
@@ -751,15 +747,15 @@ break
 			    reply(`â—ª DONASI
   â”‚
   â”œâ”€ â GOPAY
-  â”œâ”€ â 088213292687
+  â”œâ”€ â 08980330708
   â”œâ”€ â OVO
-  â”œâ”€ â 088213292687
+  â”œâ”€ â 08980330708
   â”œâ”€ â PULSA
-  â”œâ”€ â 081319944917
-  â”œâ”€ â PULSA2
-  â”œâ”€ â 088213292687
+  â”œâ”€ â 08980330708
+  â”œâ”€ â DANA
+  â”œâ”€ â 08980330708
   â”œâ”€ â INSTAGRAM
-  â””â”€ â https://www.instagram.com/chris.tianid
+  â””â”€ â https://www.instagram.com/Ademods
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
